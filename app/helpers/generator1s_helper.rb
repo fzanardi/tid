@@ -1,0 +1,2 @@
+module Generator1sHelper
+end

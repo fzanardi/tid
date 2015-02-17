@@ -1,0 +1,1363 @@
+18-feb-2015 0.16.56 org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init()
+18-feb-2015 0.16.57 org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+18-feb-2015 0.16.57 org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /Users/federicazanardi/Desktop/tid-master 00-00-34/solr
+18-feb-2015 0.16.57 org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/solr.xml
+18-feb-2015 0.16.57 org.apache.solr.core.CoreContainer <init>
+INFO: New CoreContainer 1915590067
+18-feb-2015 0.16.57 org.apache.solr.core.CoreContainer load
+INFO: Loading CoreContainer using Solr Home: '/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/'
+18-feb-2015 0.16.57 org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/'
+18-feb-2015 0.16.59 org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting socketTimeout to: 0
+18-feb-2015 0.16.59 org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting urlScheme to: http://
+18-feb-2015 0.16.59 org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting connTimeout to: 0
+18-feb-2015 0.16.59 org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxConnectionsPerHost to: 20
+18-feb-2015 0.16.59 org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting corePoolSize to: 0
+18-feb-2015 0.16.59 org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maximumPoolSize to: 2147483647
+18-feb-2015 0.16.59 org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxThreadIdleTime to: 5
+18-feb-2015 0.16.59 org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting sizeOfQueue to: -1
+18-feb-2015 0.16.59 org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting fairnessPolicy to: false
+18-feb-2015 0.16.59 org.apache.solr.client.solrj.impl.HttpClientUtil createClient
+INFO: Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+18-feb-2015 0.16.59 org.apache.solr.core.CoreContainer load
+INFO: Registering Log Listener
+18-feb-2015 0.16.59 org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore 'default' using instanceDir: /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/.
+18-feb-2015 0.16.59 org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./'
+18-feb-2015 0.16.59 org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore 'development' using instanceDir: /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/.
+18-feb-2015 0.16.59 org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./'
+18-feb-2015 0.16.59 org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore 'test' using instanceDir: /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/.
+18-feb-2015 0.16.59 org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./'
+18-feb-2015 0.17.00 org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_41
+18-feb-2015 0.17.00 org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_41
+18-feb-2015 0.17.00 org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_41
+18-feb-2015 0.17.00 org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+18-feb-2015 0.17.00 org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=sunspot
+18-feb-2015 0.17.00 org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=sunspot
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=sunspot
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field in schema is text
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field in schema is text
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field in schema is text
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+18-feb-2015 0.17.00 org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore <init>
+INFO: [default] Opening new SolrCore at /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./, dataDir=/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./default/data/
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore <init>
+INFO: [development] Opening new SolrCore at /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./, dataDir=/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./development/data/
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore <init>
+INFO: [test] Opening new SolrCore at /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./, dataDir=/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./test/data/
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore <init>
+INFO: JMX monitoring not detected for core: development
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore <init>
+INFO: JMX monitoring not detected for core: default
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore <init>
+INFO: JMX monitoring not detected for core: test
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore initDirectoryFactory
+INFO: solr.NRTCachingDirectoryFactory
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore initDirectoryFactory
+INFO: solr.NRTCachingDirectoryFactory
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore initDirectoryFactory
+INFO: solr.NRTCachingDirectoryFactory
+18-feb-2015 0.17.00 org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./default/data forceNew: false
+18-feb-2015 0.17.00 org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./test/data forceNew: false
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore getNewIndexDir
+INFO: New index directory detected: old=null new=/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./default/data/index/
+18-feb-2015 0.17.00 org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./development/data forceNew: false
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore getNewIndexDir
+INFO: New index directory detected: old=null new=/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./development/data/index/
+18-feb-2015 0.17.00 org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./default/data/index forceNew: false
+18-feb-2015 0.17.00 org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./development/data/index forceNew: false
+18-feb-2015 0.17.00 org.apache.solr.core.SolrCore getNewIndexDir
+INFO: New index directory detected: old=null new=/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./test/data/index/
+18-feb-2015 0.17.00 org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/federicazanardi/Desktop/tid-master 00-00-34/solr/./test/data/index forceNew: false
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /select: solr.SearchHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /query: solr.SearchHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /get: solr.RealTimeGetHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /select: solr.SearchHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /query: solr.SearchHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /select: solr.SearchHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /get: solr.RealTimeGetHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /query: solr.SearchHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /get: solr.RealTimeGetHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.UpdateRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.UpdateRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.UpdateRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /replication: solr.ReplicationHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /replication: solr.ReplicationHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /replication: solr.ReplicationHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /mlt: solr.MoreLikeThisHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /mlt: solr.MoreLikeThisHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /mlt: solr.MoreLikeThisHandler
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+18-feb-2015 0.17.01 org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+18-feb-2015 0.17.01 org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+18-feb-2015 0.17.01 org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+18-feb-2015 0.17.01 org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+18-feb-2015 0.17.01 org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+18-feb-2015 0.17.01 org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+18-feb-2015 0.17.01 org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+18-feb-2015 0.17.01 org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+18-feb-2015 0.17.01 org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+18-feb-2015 0.17.01 org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+18-feb-2015 0.17.01 org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@16e334a main
+18-feb-2015 0.17.01 org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@6e75d758 main
+18-feb-2015 0.17.01 org.apache.solr.update.CommitTracker <init>
+INFO: Hard AutoCommit: if uncommited for 15000ms; 
+18-feb-2015 0.17.01 org.apache.solr.update.CommitTracker <init>
+INFO: Soft AutoCommit: if uncommited for 5000ms; 
+18-feb-2015 0.17.01 org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+18-feb-2015 0.17.01 org.apache.solr.update.CommitTracker <init>
+INFO: Hard AutoCommit: if uncommited for 15000ms; 
+18-feb-2015 0.17.01 org.apache.solr.update.CommitTracker <init>
+INFO: Soft AutoCommit: if uncommited for 5000ms; 
+18-feb-2015 0.17.01 org.apache.solr.spelling.DirectSolrSpellChecker init
+INFO: init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+18-feb-2015 0.17.01 org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@201532fc main
+18-feb-2015 0.17.01 org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+18-feb-2015 0.17.01 org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: No queryConverter defined, using default converter
+18-feb-2015 0.17.01 org.apache.solr.update.CommitTracker <init>
+INFO: Hard AutoCommit: if uncommited for 15000ms; 
+18-feb-2015 0.17.01 org.apache.solr.update.CommitTracker <init>
+INFO: Soft AutoCommit: if uncommited for 5000ms; 
+18-feb-2015 0.17.01 org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+18-feb-2015 0.17.01 org.apache.solr.spelling.DirectSolrSpellChecker init
+INFO: init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+18-feb-2015 0.17.01 org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: No queryConverter defined, using default converter
+18-feb-2015 0.17.01 org.apache.solr.spelling.DirectSolrSpellChecker init
+INFO: init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+18-feb-2015 0.17.01 org.apache.solr.handler.ReplicationHandler inform
+INFO: Commits will be reserved for  10000
+18-feb-2015 0.17.01 org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: No queryConverter defined, using default converter
+18-feb-2015 0.17.01 org.apache.solr.handler.ReplicationHandler inform
+INFO: Commits will be reserved for  10000
+18-feb-2015 0.17.01 org.apache.solr.handler.ReplicationHandler inform
+INFO: Commits will be reserved for  10000
+18-feb-2015 0.17.01 org.apache.solr.core.SolrCore registerSearcher
+INFO: [development] Registered new searcher Searcher@6e75d758 main{StandardDirectoryReader(segments_1:1)}
+18-feb-2015 0.17.01 org.apache.solr.core.CoreContainer registerCore
+INFO: registering core: development
+18-feb-2015 0.17.01 org.apache.solr.core.CoreContainer registerCore
+INFO: registering core: default
+18-feb-2015 0.17.01 org.apache.solr.core.SolrCore registerSearcher
+INFO: [test] Registered new searcher Searcher@16e334a main{StandardDirectoryReader(segments_1:1)}
+18-feb-2015 0.17.01 org.apache.solr.core.CoreContainer registerCore
+INFO: registering core: test
+18-feb-2015 0.17.01 org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@201532fc main{StandardDirectoryReader(segments_1:1)}
+18-feb-2015 0.17.01 org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=/Users/federicazanardi/Desktop/tid-master 00-00-34/vendor/bundle/ruby/2.1.0/gems/sunspot_solr-2.1.1/solr
+18-feb-2015 0.17.01 org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init() done
+18-feb-2015 0.17.28 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=0 status=0 QTime=34 
+18-feb-2015 0.18.00 org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@273f212a; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+18-feb-2015 0.18.00 org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1[segments_1]
+18-feb-2015 0.18.00 org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Attr 54e3cc274d616303e8000000 (1493397752120344576)]} 0 500
+18-feb-2015 0.18.00 org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Generator 54e3cc284d616303e8010000 (1493397752538726400)]} 0 5
+18-feb-2015 0.18.00 org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+18-feb-2015 0.18.00 org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@273f212a; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@273f212a; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2,filenames=[_0.fnm, _0_Lucene41_0.doc, _0_Lucene41_0.pos, _0.nvd, segments_2, _0.fdx, _0.si, _0.nvm, _0_Lucene41_0.tim, _0.fdt, _0_Lucene41_0.tip]
+18-feb-2015 0.18.00 org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 2[_0.fnm, _0_Lucene41_0.doc, _0_Lucene41_0.pos, _0.nvd, segments_2, _0.fdx, _0.si, _0.nvm, _0_Lucene41_0.tim, _0.fdt, _0_Lucene41_0.tip]
+18-feb-2015 0.18.00 org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@25098594 main
+18-feb-2015 0.18.00 org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+18-feb-2015 0.18.00 org.apache.solr.core.SolrCore registerSearcher
+INFO: [development] Registered new searcher Searcher@25098594 main{StandardDirectoryReader(segments_2:3 _0(4.2):C2)}
+18-feb-2015 0.18.00 org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {commit=} 0 96
+18-feb-2015 0.18.06 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=8 
+18-feb-2015 0.18.06 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=1 status=0 QTime=4 
+18-feb-2015 0.18.06 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.06 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.06 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.06 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=4 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=1 status=0 QTime=1 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.07 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=1 status=0 QTime=1 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=2 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.08 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=3 
+18-feb-2015 0.18.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.13 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=3 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=1 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=1 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.29 org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Attr 54e3cc454d616303e8020000 (1493397782996713472)]} 0 4
+18-feb-2015 0.18.29 org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Generator 54e3cc454d616303e8030000 (1493397783011393536)]} 0 4
+18-feb-2015 0.18.29 org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+18-feb-2015 0.18.29 org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@273f212a; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2,filenames=[_0.fnm, _0_Lucene41_0.doc, _0_Lucene41_0.pos, _0.nvd, segments_2, _0.fdx, _0.si, _0.nvm, _0_Lucene41_0.tim, _0.fdt, _0_Lucene41_0.tip]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@273f212a; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3,filenames=[_1.nvm, _1_Lucene41_0.doc, _0.fnm, _0_Lucene41_0.pos, _1_Lucene41_0.tim, _1.nvd, _1_Lucene41_0.tip, _0.nvm, _1.fnm, _1.fdx, _1_Lucene41_0.pos, _1.fdt, _0_Lucene41_0.doc, _1.si, _0.nvd, _0.fdx, _0.si, _0_Lucene41_0.tim, segments_3, _0_Lucene41_0.tip, _0.fdt]
+18-feb-2015 0.18.29 org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 3[_1.nvm, _1_Lucene41_0.doc, _0.fnm, _0_Lucene41_0.pos, _1_Lucene41_0.tim, _1.nvd, _1_Lucene41_0.tip, _0.nvm, _1.fnm, _1.fdx, _1_Lucene41_0.pos, _1.fdt, _0_Lucene41_0.doc, _1.si, _0.nvd, _0.fdx, _0.si, _0_Lucene41_0.tim, segments_3, _0_Lucene41_0.tip, _0.fdt]
+18-feb-2015 0.18.29 org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@699dd97b main
+18-feb-2015 0.18.29 org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+18-feb-2015 0.18.29 org.apache.solr.core.SolrCore registerSearcher
+INFO: [development] Registered new searcher Searcher@699dd97b main{StandardDirectoryReader(segments_3:5 _0(4.2):C2 _1(4.2):C2)}
+18-feb-2015 0.18.29 org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {commit=} 0 45
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=2 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=1 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.35 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=5 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=4 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.36 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=2 
+18-feb-2015 0.18.37 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.37 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.37 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.37 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.37 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.37 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.37 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.37 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.37 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.38 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=mod1&qf=name_text+notes_text+refgenerators_text+attr_name_text+fcid_text+sample_rows_sampleId_text+sample_rows_sampleRef_text+sample_rows_index_text+sample_rows_description_text+sample_rows_control_text+sample_rows_receipe_text+sample_rows_operator_text+sample_rows_sampleProject_text+sampleId_text+sampleRef_text+index_text+description_text+control_text+receipe_text+operator_text+sampleProject_text+type_text+sortingDate_text+purity_text+rnaIsolationDate_text+rnaId_text+sampleIndex_text+cell_text+label_text+researcher_text+comment_text+tags_text+date_text+rna_forms_ids_text+sample_sheets_ids_text+samples_text+doc_file_name_text+fileType_label_text+idCode_text+more_text+histology_number_text+patient_id_text+date_of_biopsy_text+date_of_birth_text+therapies_drug_text+pathologies_name_text+firstclassification_text+secondclassification_text+nregionallymphnode_text+grading_text+tprimarytumor_text+mdistantmetastasi_text&wt=ruby&fq=type:(Generator+OR+SampleSheet+OR+SampleRow+OR+Attr+OR+Generator+OR+Attr+OR+SampleSheet+OR+SampleRow+OR+RnaForm+OR+FileType+OR+Doc+OR+Cell+OR+Firstclassification+OR+Secondclassification+OR+MicrornaPatient+OR+Grading+OR+Tprimarytumor+OR+Nregionallymphnode+OR+Mdistantmetastasi+OR+Patient+OR+Generator+OR+Attr+OR+FileType+OR+Cell+OR+SampleSheet+OR+Firstclassification+OR+Secondclassification+OR+RnaForm+OR+Doc+OR+Mdistantmetastasi+OR+Grading+OR+Tprimarytumor+OR+Nregionallymphnode+OR+MicrornaPatient+OR+Patient+OR+SampleRow)&fq=class_name:Generator&rows=30&defType=edismax} hits=1 status=0 QTime=28 
+18-feb-2015 0.18.40 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.40 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=2 
+18-feb-2015 0.18.40 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.40 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.40 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.40 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.40 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.40 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=2 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=0 
+18-feb-2015 0.18.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.43 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.43 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.43 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.44 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.18.44 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.44 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.18.44 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=mod1&qf=name_text+notes_text+refgenerators_text+attr_name_text+fcid_text+sample_rows_sampleId_text+sample_rows_sampleRef_text+sample_rows_index_text+sample_rows_description_text+sample_rows_control_text+sample_rows_receipe_text+sample_rows_operator_text+sample_rows_sampleProject_text+sampleId_text+sampleRef_text+index_text+description_text+control_text+receipe_text+operator_text+sampleProject_text+type_text+sortingDate_text+purity_text+rnaIsolationDate_text+rnaId_text+sampleIndex_text+cell_text+label_text+researcher_text+comment_text+tags_text+date_text+rna_forms_ids_text+sample_sheets_ids_text+samples_text+doc_file_name_text+fileType_label_text+idCode_text+more_text+histology_number_text+patient_id_text+date_of_biopsy_text+date_of_birth_text+therapies_drug_text+pathologies_name_text+firstclassification_text+secondclassification_text+nregionallymphnode_text+grading_text+tprimarytumor_text+mdistantmetastasi_text&wt=ruby&fq=type:(Generator+OR+SampleSheet+OR+SampleRow+OR+Attr+OR+Generator+OR+Attr+OR+SampleSheet+OR+SampleRow+OR+RnaForm+OR+FileType+OR+Doc+OR+Cell+OR+Firstclassification+OR+Secondclassification+OR+MicrornaPatient+OR+Grading+OR+Tprimarytumor+OR+Nregionallymphnode+OR+Mdistantmetastasi+OR+Patient+OR+Generator+OR+Attr+OR+FileType+OR+Cell+OR+SampleSheet+OR+Firstclassification+OR+Secondclassification+OR+RnaForm+OR+Doc+OR+Mdistantmetastasi+OR+Grading+OR+Tprimarytumor+OR+Nregionallymphnode+OR+MicrornaPatient+OR+Patient+OR+SampleRow)&fq=class_name:Generator&rows=30&defType=edismax} hits=1 status=0 QTime=7 
+18-feb-2015 0.18.50 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=1 
+18-feb-2015 0.18.58 org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Mod1 54e3cc624d616303e8040000 (1493397813092941824)]} 0 3
+18-feb-2015 0.18.58 org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+18-feb-2015 0.18.58 org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@273f212a; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3,filenames=[_1.nvm, _1_Lucene41_0.doc, _0.fnm, _0_Lucene41_0.pos, _1_Lucene41_0.tim, _1.nvd, _1_Lucene41_0.tip, _0.nvm, _1.fnm, _1.fdx, _1_Lucene41_0.pos, _1.fdt, _0_Lucene41_0.doc, _1.si, _0.nvd, _0.fdx, _0.si, _0_Lucene41_0.tim, segments_3, _0_Lucene41_0.tip, _0.fdt]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@273f212a; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4,filenames=[_2_Lucene41_0.pos, _2.si, _1_Lucene41_0.doc, _2_Lucene41_0.tim, _0_Lucene41_0.pos, _2_Lucene41_0.tip, _1.fnm, _0.nvd, _0.si, _0_Lucene41_0.tim, _0_Lucene41_0.tip, _1.nvm, _0.fnm, _1_Lucene41_0.tim, _1.nvd, _2.fdt, _1_Lucene41_0.tip, _2_Lucene41_0.doc, _0.nvm, _2.fdx, _2.fnm, _1_Lucene41_0.pos, _1.fdx, _2.nvm, _0_Lucene41_0.doc, _1.fdt, _1.si, _2.nvd, _0.fdx, _0.fdt, segments_4]
+18-feb-2015 0.18.58 org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 4[_2_Lucene41_0.pos, _2.si, _1_Lucene41_0.doc, _2_Lucene41_0.tim, _0_Lucene41_0.pos, _2_Lucene41_0.tip, _1.fnm, _0.nvd, _0.si, _0_Lucene41_0.tim, _0_Lucene41_0.tip, _1.nvm, _0.fnm, _1_Lucene41_0.tim, _1.nvd, _2.fdt, _1_Lucene41_0.tip, _2_Lucene41_0.doc, _0.nvm, _2.fdx, _2.fnm, _1_Lucene41_0.pos, _1.fdx, _2.nvm, _0_Lucene41_0.doc, _1.fdt, _1.si, _2.nvd, _0.fdx, _0.fdt, segments_4]
+18-feb-2015 0.18.58 org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@5a81b83c main
+18-feb-2015 0.18.58 org.apache.solr.core.SolrCore registerSearcher
+INFO: [development] Registered new searcher Searcher@5a81b83c main{StandardDirectoryReader(segments_4:7 _0(4.2):C2 _1(4.2):C2 _2(4.2):C1)}
+18-feb-2015 0.18.58 org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+18-feb-2015 0.18.58 org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {commit=} 0 45
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=3 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=0 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.02 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=6 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=2 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.03 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.04 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.04 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.04 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.04 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.04 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Mod1&rows=30} hits=1 status=0 QTime=1 
+18-feb-2015 0.19.04 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.05 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.05 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.05 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=2 
+18-feb-2015 0.19.10 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=1 
+18-feb-2015 0.19.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.14 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.15 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=5 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.16 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.19.18 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=m2&qf=name_text+notes_text+refgenerators_text+attr_name_text&wt=ruby&fq=type:Generator&rows=30&defType=edismax} hits=0 status=0 QTime=1 
+18-feb-2015 0.19.31 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=mod2&qf=name_text+notes_text+refgenerators_text+attr_name_text+fcid_text+sample_rows_sampleId_text+sample_rows_sampleRef_text+sample_rows_index_text+sample_rows_description_text+sample_rows_control_text+sample_rows_receipe_text+sample_rows_operator_text+sample_rows_sampleProject_text+sampleId_text+sampleRef_text+index_text+description_text+control_text+receipe_text+operator_text+sampleProject_text+type_text+sortingDate_text+purity_text+rnaIsolationDate_text+rnaId_text+sampleIndex_text+cell_text+label_text+researcher_text+comment_text+tags_text+date_text+rna_forms_ids_text+sample_sheets_ids_text+samples_text+doc_file_name_text+fileType_label_text+idCode_text+more_text+histology_number_text+patient_id_text+date_of_biopsy_text+date_of_birth_text+therapies_drug_text+pathologies_name_text+firstclassification_text+secondclassification_text+nregionallymphnode_text+grading_text+tprimarytumor_text+mdistantmetastasi_text&wt=ruby&fq=type:(Generator+OR+SampleSheet+OR+SampleRow+OR+Attr+OR+Generator+OR+Attr+OR+SampleSheet+OR+SampleRow+OR+RnaForm+OR+FileType+OR+Doc+OR+Cell+OR+Firstclassification+OR+Secondclassification+OR+MicrornaPatient+OR+Grading+OR+Tprimarytumor+OR+Nregionallymphnode+OR+Mdistantmetastasi+OR+Patient+OR+Generator+OR+Attr+OR+FileType+OR+Cell+OR+SampleSheet+OR+Firstclassification+OR+Secondclassification+OR+RnaForm+OR+Doc+OR+Mdistantmetastasi+OR+Grading+OR+Tprimarytumor+OR+Nregionallymphnode+OR+MicrornaPatient+OR+Patient+OR+SampleRow+OR+Mod1)&rows=30&defType=edismax} hits=1 status=0 QTime=26 
+18-feb-2015 0.19.40 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=1 
+18-feb-2015 0.19.58 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=0 
+18-feb-2015 0.20.09 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=mod2&qf=name_text+notes_text+refgenerators_text+attr_name_text&wt=ruby&fq=type:Generator&rows=30&defType=edismax} hits=1 status=0 QTime=3 
+18-feb-2015 0.20.17 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Mod2&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.37 org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Mod2 54e3ccc54d616303e8050000 (1493397916791865344)]} 0 4
+18-feb-2015 0.20.37 org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+18-feb-2015 0.20.37 org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@273f212a; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4,filenames=[_2_Lucene41_0.pos, _2.si, _1_Lucene41_0.doc, _2_Lucene41_0.tim, _0_Lucene41_0.pos, _2_Lucene41_0.tip, _1.fnm, _0.nvd, _0.si, _0_Lucene41_0.tim, _0_Lucene41_0.tip, _1.nvm, _0.fnm, _1_Lucene41_0.tim, _1.nvd, _2.fdt, _1_Lucene41_0.tip, _2_Lucene41_0.doc, _0.nvm, _2.fdx, _2.fnm, _1_Lucene41_0.pos, _1.fdx, _2.nvm, _0_Lucene41_0.doc, _1.fdt, _1.si, _2.nvd, _0.fdx, _0.fdt, segments_4]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/federicazanardi/Desktop/tid-master 00-00-34/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@273f212a; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5,filenames=[_2_Lucene41_0.pos, _2.si, _1_Lucene41_0.doc, _2_Lucene41_0.tim, _0_Lucene41_0.pos, _3.fdt, _3.fnm, _2_Lucene41_0.tip, _1.fnm, _3.nvd, _3_Lucene41_0.pos, _3_Lucene41_0.tip, _0.nvd, _3_Lucene41_0.tim, _3.nvm, _0.si, _0_Lucene41_0.tim, _0_Lucene41_0.tip, _1.nvm, _0.fnm, _1_Lucene41_0.tim, _1.nvd, _2.fdt, _1_Lucene41_0.tip, _2_Lucene41_0.doc, _0.nvm, _2.fdx, _2.fnm, _3.fdx, _1_Lucene41_0.pos, _1.fdx, _2.nvm, _3_Lucene41_0.doc, _0_Lucene41_0.doc, _1.fdt, _1.si, _2.nvd, _3.si, _0.fdx, segments_5, _0.fdt]
+18-feb-2015 0.20.37 org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 5[_2_Lucene41_0.pos, _2.si, _1_Lucene41_0.doc, _2_Lucene41_0.tim, _0_Lucene41_0.pos, _3.fdt, _3.fnm, _2_Lucene41_0.tip, _1.fnm, _3.nvd, _3_Lucene41_0.pos, _3_Lucene41_0.tip, _0.nvd, _3_Lucene41_0.tim, _3.nvm, _0.si, _0_Lucene41_0.tim, _0_Lucene41_0.tip, _1.nvm, _0.fnm, _1_Lucene41_0.tim, _1.nvd, _2.fdt, _1_Lucene41_0.tip, _2_Lucene41_0.doc, _0.nvm, _2.fdx, _2.fnm, _3.fdx, _1_Lucene41_0.pos, _1.fdx, _2.nvm, _3_Lucene41_0.doc, _0_Lucene41_0.doc, _1.fdt, _1.si, _2.nvd, _3.si, _0.fdx, segments_5, _0.fdt]
+18-feb-2015 0.20.37 org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@4e01c1f2 main
+18-feb-2015 0.20.37 org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+18-feb-2015 0.20.37 org.apache.solr.core.SolrCore registerSearcher
+INFO: [development] Registered new searcher Searcher@4e01c1f2 main{StandardDirectoryReader(segments_5:9 _0(4.2):C2 _1(4.2):C2 _2(4.2):C1 _3(4.2):C1)}
+18-feb-2015 0.20.37 org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {commit=} 0 48
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=2 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=0 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.41 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.42 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.43 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.43 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.43 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.43 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.43 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.43 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Mod2&rows=30} hits=1 status=0 QTime=0 
+18-feb-2015 0.20.45 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=pirro&qf=name_text&wt=ruby&fq=type:Mod1&rows=30&defType=edismax} hits=1 status=0 QTime=1 
+18-feb-2015 0.20.46 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.46 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.46 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.46 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.46 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.46 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.46 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=0 
+18-feb-2015 0.20.46 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.46 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.46 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Generator&rows=30} hits=2 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Secondclassification&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:SampleSheet&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Cell&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:FileType&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:(Firstclassification+OR+Secondclassification)&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=2 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.47 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:MicrornaPatient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Patient&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Doc&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.48 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=1 
+18-feb-2015 0.20.49 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.49 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:RnaForm&rows=30} hits=0 status=0 QTime=0 
+18-feb-2015 0.20.55 org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=pirro&qf=name_text+notes_text+refgenerators_text+attr_name_text+fcid_text+sample_rows_sampleId_text+sample_rows_sampleRef_text+sample_rows_index_text+sample_rows_description_text+sample_rows_control_text+sample_rows_receipe_text+sample_rows_operator_text+sample_rows_sampleProject_text+sampleId_text+sampleRef_text+index_text+description_text+control_text+receipe_text+operator_text+sampleProject_text+type_text+sortingDate_text+purity_text+rnaIsolationDate_text+rnaId_text+sampleIndex_text+cell_text+label_text+researcher_text+comment_text+tags_text+date_text+rna_forms_ids_text+sample_sheets_ids_text+samples_text+doc_file_name_text+fileType_label_text+idCode_text+more_text+histology_number_text+patient_id_text+date_of_biopsy_text+date_of_birth_text+therapies_drug_text+pathologies_name_text+firstclassification_text+secondclassification_text+nregionallymphnode_text+grading_text+tprimarytumor_text+mdistantmetastasi_text+mod1_name_text&wt=ruby&fq=type:(Generator+OR+SampleSheet+OR+SampleRow+OR+Attr+OR+Generator+OR+Attr+OR+SampleSheet+OR+SampleRow+OR+RnaForm+OR+FileType+OR+Doc+OR+Cell+OR+Firstclassification+OR+Secondclassification+OR+MicrornaPatient+OR+Grading+OR+Tprimarytumor+OR+Nregionallymphnode+OR+Mdistantmetastasi+OR+Patient+OR+Generator+OR+Attr+OR+FileType+OR+Cell+OR+SampleSheet+OR+Firstclassification+OR+Secondclassification+OR+RnaForm+OR+Doc+OR+Mdistantmetastasi+OR+Grading+OR+Tprimarytumor+OR+Nregionallymphnode+OR+MicrornaPatient+OR+Patient+OR+SampleRow+OR+Mod1+OR+Mod2)&rows=30&defType=edismax} hits=2 status=0 QTime=20 
